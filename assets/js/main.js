@@ -14,4 +14,11 @@ for (let i = 1; i <= 100; i++){
     } else{
         console.log(i);
     }
+
+    document.getElementById("btn").addEventListener("click", myFunction)
+
+    function myFunction(){
+        console.log("hello");
+    }
 }
+
