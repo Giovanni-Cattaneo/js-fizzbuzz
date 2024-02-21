@@ -12,6 +12,11 @@ BONUS 2:
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 
 ## Steps
+- Creare un ul nel file html
+- Utilizzando la formula per i cicli for stampare in console una lista di tot elementi
+- 
 
 ## Tools
 - For
+- % per verificare la divisibilità di un numero per un altro
+- Let/const
