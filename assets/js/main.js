@@ -17,18 +17,21 @@ for (let i = 1; i <= 100; i++){
 
     document.getElementById("btn").addEventListener("click", myFunction)
 
-    let list = document.querySelector("ul.list")
-
     function myFunction(){
+        let ul = document.querySelector("ul.list")
+        const element= `<li class="box"></li>`
+        ul.innerHTML += element;
         if (divideThree === 0 && divideFive === 0){ 
-            list.append("Fizz-buz");
+            ul.append("Fizz-buz");
         } else if(divideFive === 0){ 
-            list.append("buzz");
+            ul.append("buzz");
         } else if( divideThree === 0){ 
-            list.append("fizz");
+            ul.append("fizz");
         } else{
-            list.append(i)
+            ul.append(i)
         }
+        
     }
 }
+
 
