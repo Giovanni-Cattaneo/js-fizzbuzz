@@ -21,3 +21,6 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 - For
 - % per verificare la divisibilità di un numero per un altro
 - Let/const
+- If/ else
+- === selector uguaglianza massima
+- && and selector, qualcosa deve essere vero per entrambi i fattori per verificarsi
