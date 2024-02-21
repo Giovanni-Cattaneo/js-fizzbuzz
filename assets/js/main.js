@@ -9,7 +9,7 @@ for (let i = 1; i <= 100; i++){
         console.log("fizz");
     } else if(divideFive === 0){
         console.log("buzz");
-    } else if(divideThree + divideFive === 0){
+    } else if(divideThree === 0 && divideFive === 0){
         console.log("Fizz-buz");
     } else{
         console.log(i);

@@ -14,6 +14,7 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 ## Steps
 - Creare un ul nel file html
 - Utilizzando la formula per i cicli for stampare in console una lista di tot elementi
+- aggiungiamo un if/ else all'interno per le varie casistiche dei multipli
 - 
 
 ## Tools
