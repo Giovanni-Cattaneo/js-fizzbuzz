@@ -2,7 +2,7 @@ ul{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    li{
+    .box{
         background-color: red;
         height: 100px;
         width: 100px;

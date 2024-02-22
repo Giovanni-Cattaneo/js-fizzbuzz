@@ -20,17 +20,16 @@ for (let i = 1; i <= 100; i++){
     function myFunction(){
         let ul = document.querySelector("ul.list")
         const listItem= `<li class="box"></li>`
-        ul.innerHTML += listItem;
-        let box = document.querySelectorAll(".box")
-        
+        ul.append(listItem);
+
         if (divideThree === 0 && divideFive === 0){ 
-            box.innerHTML += "Fizz-buz";
+            listItem.innerHTML += "Fizz-buz";
         } else if(divideFive === 0){ 
-            box.innerHTML += "buzz";
+            listItem.innerHTML += "buzz";
         } else if( divideThree === 0){ 
-            box.innerHTML += "fizz";
+            listItem.innerHTML += "fizz";
         } else{
-            box.innerHTML += i;
+            listItem.innerHTML += i;
         }
         
     }
