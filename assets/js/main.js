@@ -19,7 +19,7 @@ for (let i = 1; i <= 100; i++){
 
     function myFunction(){
         let ul = document.querySelector("ul.list")
-        const listItem= `<li class="box"></li>`
+        const listItem= document.createElement`li`
         ul.append(listItem);
 
         if (divideThree === 0 && divideFive === 0){ 

@@ -2,11 +2,13 @@ ul{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    .box{
+    li{
         background-color: red;
         height: 100px;
         width: 100px;
         border: 1px solid;
         color: white;
+        line-height: 100px;
+        text-align: center;
     }
 }
