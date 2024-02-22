@@ -19,8 +19,8 @@ for (let i = 1; i <= 100; i++){
 
     function myFunction(){
         let ul = document.querySelector("ul.list")
-        const element= `<li class="box"></li>`
-        ul.innerHTML += element;
+        const listItem= `<li class="box"></li>`
+        ul.innerHTML += listItem;
         let box = document.querySelectorAll(".box")
         if (divideThree === 0 && divideFive === 0){ 
             box.innerHTML = "Fizz-buz";
