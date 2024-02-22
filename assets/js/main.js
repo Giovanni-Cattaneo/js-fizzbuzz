@@ -22,14 +22,15 @@ for (let i = 1; i <= 100; i++){
         const listItem= `<li class="box"></li>`
         ul.innerHTML += listItem;
         let box = document.querySelectorAll(".box")
+        
         if (divideThree === 0 && divideFive === 0){ 
-            box.innerHTML = "Fizz-buz";
+            box.innerHTML += "Fizz-buz";
         } else if(divideFive === 0){ 
-            box.innerHTML = "buzz";
+            box.innerHTML += "buzz";
         } else if( divideThree === 0){ 
-            box.innerHTML = "fizz";
+            box.innerHTML += "fizz";
         } else{
-            box.innerHTML = i;
+            box.innerHTML += i;
         }
         
     }
