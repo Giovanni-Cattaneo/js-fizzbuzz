@@ -22,13 +22,13 @@ for (let i = 1; i <= 100; i++){
         const element= `<li class="box"></li>`
         ul.innerHTML += element;
         if (divideThree === 0 && divideFive === 0){ 
-            ul.append("Fizz-buz");
+            element.innerText = "Fizz-buz";
         } else if(divideFive === 0){ 
-            ul.append("buzz");
+            element.textContent = "buzz";
         } else if( divideThree === 0){ 
-            ul.append("fizz");
+            element.textContent = "fizz" ;
         } else{
-            ul.append(i)
+            element.textContent = i
         }
         
     }
